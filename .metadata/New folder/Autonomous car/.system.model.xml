@@ -1,0 +1,722 @@
+<il.ac.wis.cs.systemmodel.impl.SystemModelImpl>
+  <classes>
+    <il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl>
+      <classesLocation>//src//playgo//systemmodel//classes</classesLocation>
+      <name>Car</name>
+      <sm class="il.ac.wis.cs.systemmodel.impl.SystemModelImpl" reference="../../.."/>
+      <extendedClass></extendedClass>
+      <properties>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+          <name>name</name>
+          <type>String</type>
+          <defaultValue></defaultValue>
+          <canBeChagedByUser>false</canBeChagedByUser>
+          <canBeChagedByEnv>false</canBeChagedByEnv>
+          <canBeChagedBySystem>true</canBeChagedBySystem>
+          <gui>true</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+      </properties>
+      <methods>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>getName</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>String</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>true</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>park</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>void</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>false</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>LookForPark</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>void</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>USER_EVENT</methodKind>
+          <gui>false</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>AttempToSeal</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>void</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>USER_EVENT</methodKind>
+          <gui>false</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>call</name>
+          <arguments>
+            <string>String</string>
+          </arguments>
+          <argumentsNames>
+            <string>arg0</string>
+          </argumentsNames>
+          <returnType>void</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>false</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>access</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>void</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>false</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>drive</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>void</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>false</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+      </methods>
+      <importedFromApp>false</importedFromApp>
+      <gui>true</gui>
+      <associatedWithStateChart>false</associatedWithStateChart>
+    </il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl>
+    <il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl>
+      <classesLocation>//src//playgo//systemmodel//classes</classesLocation>
+      <name>Computer</name>
+      <sm class="il.ac.wis.cs.systemmodel.impl.SystemModelImpl" reference="../../.."/>
+      <extendedClass></extendedClass>
+      <properties>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+          <name>name</name>
+          <type>String</type>
+          <defaultValue></defaultValue>
+          <canBeChagedByUser>false</canBeChagedByUser>
+          <canBeChagedByEnv>false</canBeChagedByEnv>
+          <canBeChagedBySystem>true</canBeChagedBySystem>
+          <gui>true</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+      </properties>
+      <methods>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>getName</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>String</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>true</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>park</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>void</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>false</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>finish</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>void</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>false</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>search</name>
+          <arguments>
+            <string>String</string>
+          </arguments>
+          <argumentsNames/>
+          <returnType>void</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>false</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+      </methods>
+      <importedFromApp>false</importedFromApp>
+      <gui>true</gui>
+      <associatedWithStateChart>false</associatedWithStateChart>
+    </il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl>
+    <il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl>
+      <classesLocation>//src//playgo//systemmodel//classes</classesLocation>
+      <name>GasPaddle</name>
+      <sm class="il.ac.wis.cs.systemmodel.impl.SystemModelImpl" reference="../../.."/>
+      <extendedClass></extendedClass>
+      <properties>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+          <name>name</name>
+          <type>String</type>
+          <defaultValue></defaultValue>
+          <canBeChagedByUser>false</canBeChagedByUser>
+          <canBeChagedByEnv>false</canBeChagedByEnv>
+          <canBeChagedBySystem>true</canBeChagedBySystem>
+          <gui>true</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+      </properties>
+      <methods>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>getName</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>String</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>true</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>press</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>void</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>false</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+      </methods>
+      <importedFromApp>false</importedFromApp>
+      <gui>true</gui>
+      <associatedWithStateChart>false</associatedWithStateChart>
+    </il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl>
+    <il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl>
+      <classesLocation>//src//playgo//systemmodel//classes</classesLocation>
+      <name>Wheel</name>
+      <sm class="il.ac.wis.cs.systemmodel.impl.SystemModelImpl" reference="../../.."/>
+      <extendedClass></extendedClass>
+      <properties>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+          <name>name</name>
+          <type>String</type>
+          <defaultValue></defaultValue>
+          <canBeChagedByUser>false</canBeChagedByUser>
+          <canBeChagedByEnv>false</canBeChagedByEnv>
+          <canBeChagedBySystem>true</canBeChagedBySystem>
+          <gui>true</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+      </properties>
+      <methods>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>getName</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>String</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>true</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>move</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>void</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>false</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+      </methods>
+      <importedFromApp>false</importedFromApp>
+      <gui>true</gui>
+      <associatedWithStateChart>false</associatedWithStateChart>
+    </il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl>
+    <il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl>
+      <classesLocation>//src//playgo//systemmodel//classes</classesLocation>
+      <name>Sensor</name>
+      <sm class="il.ac.wis.cs.systemmodel.impl.SystemModelImpl" reference="../../.."/>
+      <extendedClass></extendedClass>
+      <properties>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+          <name>name</name>
+          <type>String</type>
+          <defaultValue></defaultValue>
+          <canBeChagedByUser>false</canBeChagedByUser>
+          <canBeChagedByEnv>false</canBeChagedByEnv>
+          <canBeChagedBySystem>true</canBeChagedBySystem>
+          <gui>true</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+      </properties>
+      <methods>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>getName</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>String</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>true</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>work</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>void</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>false</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+        <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          <name>damage</name>
+          <arguments/>
+          <argumentsNames/>
+          <returnType>void</returnType>
+          <callSuper>false</callSuper>
+          <actionOnProperty>None</actionOnProperty>
+          <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+          <methodKind>SYSTEM_CALL</methodKind>
+          <gui>false</gui>
+          <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+        </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+      </methods>
+      <importedFromApp>false</importedFromApp>
+      <gui>true</gui>
+      <associatedWithStateChart>false</associatedWithStateChart>
+    </il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl>
+  </classes>
+  <objects>
+    <il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl>
+      <name>car</name>
+      <represents>Car</represents>
+      <external>false</external>
+    </il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl>
+    <il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl>
+      <name>computer</name>
+      <represents>Computer</represents>
+      <external>false</external>
+    </il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl>
+    <il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl>
+      <name>GasPaddle</name>
+      <represents>GasPaddle</represents>
+      <external>false</external>
+    </il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl>
+    <il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl>
+      <name>wheel</name>
+      <represents>Wheel</represents>
+      <external>false</external>
+    </il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl>
+    <il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl>
+      <name>sensor</name>
+      <represents>Sensor</represents>
+      <external>false</external>
+    </il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl>
+  </objects>
+  <types>
+    <il.ac.wis.cs.systemmodel.impl.SystemModelTypeImpl>
+      <name>EnumString</name>
+      <values>
+        <string>ForpickUp</string>
+        <string>police</string>
+        <string>_2km_radius</string>
+        <string>empty</string>
+        <string>TowTruck</string>
+      </values>
+      <sm class="il.ac.wis.cs.systemmodel.impl.SystemModelImpl">
+        <classes reference="../../../../classes"/>
+        <objects reference="../../../../objects"/>
+        <types reference="../../.."/>
+        <envClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl">
+          <classesLocation>//src//playgo//systemmodel//classes</classesLocation>
+          <name>Env</name>
+          <sm class="il.ac.wis.cs.systemmodel.impl.SystemModelImpl" reference="../../../../.."/>
+          <properties>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+              <name>name</name>
+              <type>String</type>
+              <defaultValue></defaultValue>
+              <canBeChagedByUser>false</canBeChagedByUser>
+              <canBeChagedByEnv>false</canBeChagedByEnv>
+              <canBeChagedBySystem>true</canBeChagedBySystem>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+          </properties>
+          <methods>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>getName</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>String</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          </methods>
+          <importedFromApp>false</importedFromApp>
+          <gui>false</gui>
+          <associatedWithStateChart>false</associatedWithStateChart>
+        </envClass>
+        <clockClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl">
+          <classesLocation>//src//playgo//systemmodel//classes</classesLocation>
+          <name>Clock</name>
+          <sm class="il.ac.wis.cs.systemmodel.impl.SystemModelImpl" reference="../../../../.."/>
+          <properties>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+              <name>time</name>
+              <type>long</type>
+              <defaultValue>0</defaultValue>
+              <canBeChagedByUser>false</canBeChagedByUser>
+              <canBeChagedByEnv>false</canBeChagedByEnv>
+              <canBeChagedBySystem>true</canBeChagedBySystem>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+              <name>name</name>
+              <type>String</type>
+              <defaultValue></defaultValue>
+              <canBeChagedByUser>false</canBeChagedByUser>
+              <canBeChagedByEnv>false</canBeChagedByEnv>
+              <canBeChagedBySystem>true</canBeChagedBySystem>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+              <name>stringTime</name>
+              <type>String</type>
+              <defaultValue>0</defaultValue>
+              <canBeChagedByUser>false</canBeChagedByUser>
+              <canBeChagedByEnv>false</canBeChagedByEnv>
+              <canBeChagedBySystem>true</canBeChagedBySystem>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+              <name>timeFormat</name>
+              <type>String</type>
+              <defaultValue>HH:mm:ss</defaultValue>
+              <canBeChagedByUser>false</canBeChagedByUser>
+              <canBeChagedByEnv>false</canBeChagedByEnv>
+              <canBeChagedBySystem>true</canBeChagedBySystem>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+              <name>timer</name>
+              <type>java.util.Timer</type>
+              <canBeChagedByUser>false</canBeChagedByUser>
+              <canBeChagedByEnv>false</canBeChagedByEnv>
+              <canBeChagedBySystem>true</canBeChagedBySystem>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+              <name>clockRunnable</name>
+              <type>Runnable</type>
+              <canBeChagedByUser>false</canBeChagedByUser>
+              <canBeChagedByEnv>false</canBeChagedByEnv>
+              <canBeChagedBySystem>true</canBeChagedBySystem>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+              <name>tickInterval</name>
+              <type>int</type>
+              <defaultValue>0</defaultValue>
+              <canBeChagedByUser>false</canBeChagedByUser>
+              <canBeChagedByEnv>false</canBeChagedByEnv>
+              <canBeChagedBySystem>true</canBeChagedBySystem>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+              <name>autoTick</name>
+              <type>boolean</type>
+              <defaultValue>false</defaultValue>
+              <canBeChagedByUser>false</canBeChagedByUser>
+              <canBeChagedByEnv>false</canBeChagedByEnv>
+              <canBeChagedBySystem>true</canBeChagedBySystem>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+              <name>startFromSysTime</name>
+              <type>boolean</type>
+              <defaultValue>false</defaultValue>
+              <canBeChagedByUser>false</canBeChagedByUser>
+              <canBeChagedByEnv>false</canBeChagedByEnv>
+              <canBeChagedBySystem>true</canBeChagedBySystem>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+              <name>stopClock</name>
+              <type>boolean</type>
+              <defaultValue>true</defaultValue>
+              <canBeChagedByUser>false</canBeChagedByUser>
+              <canBeChagedByEnv>false</canBeChagedByEnv>
+              <canBeChagedBySystem>true</canBeChagedBySystem>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelPropertyImpl>
+          </properties>
+          <methods>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>getTime</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>long</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>getName</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>String</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>getStringTime</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>String</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>getTickInterval</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>int</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>isAutoTick</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>boolean</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>getAutoTick</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>boolean</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>setTickInterval</name>
+              <arguments>
+                <string>int</string>
+              </arguments>
+              <argumentsNames/>
+              <returnType>void</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>tick</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>void</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>formatStringTime</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>void</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>start</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>void</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>stop</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>void</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>restart</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>void</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>initTimer</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>void</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+            <il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+              <name>startTimer</name>
+              <arguments/>
+              <argumentsNames/>
+              <returnType>void</returnType>
+              <callSuper>false</callSuper>
+              <actionOnProperty>None</actionOnProperty>
+              <genCorrespondingBpjEvent>false</genCorrespondingBpjEvent>
+              <methodKind>SYSTEM_CALL</methodKind>
+              <gui>false</gui>
+              <smClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../../.."/>
+            </il.ac.wis.cs.systemmodel.impl.SystemModelMethodImpl>
+          </methods>
+          <importedFromApp>false</importedFromApp>
+          <gui>false</gui>
+          <associatedWithStateChart>false</associatedWithStateChart>
+        </clockClass>
+        <userObj class="il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl">
+          <name>User</name>
+          <represents>Env</represents>
+          <external>true</external>
+        </userObj>
+        <envObj class="il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl">
+          <name>Env</name>
+          <represents>Env</represents>
+          <external>true</external>
+        </envObj>
+        <clockObj class="il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl">
+          <name>Clock</name>
+          <represents>Clock</represents>
+          <external>true</external>
+        </clockObj>
+        <projectPath>C:\Users\VB\Desktop\New folder\Test2\</projectPath>
+      </sm>
+      <typesLocation>//src//playgo//systemmodel//types</typesLocation>
+    </il.ac.wis.cs.systemmodel.impl.SystemModelTypeImpl>
+  </types>
+  <envClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../types/il.ac.wis.cs.systemmodel.impl.SystemModelTypeImpl/sm/envClass"/>
+  <clockClass class="il.ac.wis.cs.systemmodel.impl.SystemModelClassImpl" reference="../types/il.ac.wis.cs.systemmodel.impl.SystemModelTypeImpl/sm/clockClass"/>
+  <userObj class="il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl" reference="../types/il.ac.wis.cs.systemmodel.impl.SystemModelTypeImpl/sm/userObj"/>
+  <envObj class="il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl" reference="../types/il.ac.wis.cs.systemmodel.impl.SystemModelTypeImpl/sm/envObj"/>
+  <clockObj class="il.ac.wis.cs.systemmodel.impl.SystemModelObjectImpl" reference="../types/il.ac.wis.cs.systemmodel.impl.SystemModelTypeImpl/sm/clockObj"/>
+  <projectPath>C:\Users\VB\Desktop\New folder\Autonomous car\</projectPath>
+</il.ac.wis.cs.systemmodel.impl.SystemModelImpl>
